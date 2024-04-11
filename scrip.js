@@ -18,6 +18,24 @@ console.log("Hola Mundo");
  suma(5,7)
  console.log(suma)
 
+ //**************** BUCLES FOR ********* */
+ for(let i=0;i<10;i=i+1){
+    console.log(i);
+ }
+ //**************** ARREGLO ********* */
+ arreglo=[123,"pedro",true]
+ console.log(arreglo.length)
+
+ tamano=arreglo.length;
+
+ for (let i=0;i<tamano;i++){
+    console.log(arreglo[i])
+ }
+  
+
+
+
+
 
  
 
