@@ -14,6 +14,6 @@ function fetchLuke(){
     xhr.send();
 }
  function displayHer(data){
-    let jsoninfo=document.get.ElementById("TheStarWars")
+    let jsoninfo=document.get.ElementById("luky")
  }
  TheStarWars 
