@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'titulo';
+    src: url(../storage/font/Starjout.ttf);
+}
+
+@font-face {
+    font-family: 'th2';
+    src: url(../storage/font/Starjedi.ttf);
+}
+
+body{
+    background-image: url(../dia8/storage/f9860166b55e5a539f9e0cd8074563e7.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+   
+    
+}
+
+.titulo{
+    font-family: 'titulo';
+    font-size: 150px;
+    margin-top: 5vi;
+    color: rgb(131, 41, 126);
+}
+
+.tabla{
+    border: 1px solid red;
+    
+}
+th{
+    font-family: 'th2';
+    font-size: 20px;
+}
+
+.form-control{
+    
+    border-color: #D2D180;
+    border-;
+}
