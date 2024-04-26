@@ -33,8 +33,24 @@ th{
     font-size: 20px;
 }
 
-.form-control{
+.border-gradient {
+        border: 10px solid;
+        border-image-slice: 1;
+        border-width: 5px;
+        border-radius: 3px
+        
+}
+.border-gradient-green {
+        border-image-source: linear-gradient(to left, #750202, #59fff1);
+}
+.colorear1 {
+    box-shadow: -1px -1px 6px 0 rgb(26, 25, 9);
+}
+.colorear2 {
+    box-shadow: 2px 2px 8px 0 rgb(64, 64, 65);
+}
+.btn-dark{
+    background-color: #f5600a;
+    border-color: #f5600a;
     
-    border-color: #D2D180;
-    border-;
 }

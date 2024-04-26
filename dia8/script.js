@@ -92,7 +92,7 @@ document.getElementById('apiForm').addEventListener('submit', function(e) {
                             }
                         }
                     })
-                    .catch(error => console.error('Error al obtener info:', error));
+                    .catch(error => console.error('Error, intentelo de nuevo:', error));
             };
             
             
@@ -105,7 +105,7 @@ document.getElementById('apiForm').addEventListener('submit', function(e) {
         })
         .catch(error => {
             console.error('Error al consultar el API:', error);
-            document.getElementById('result').innerHTML = ' Error por favor elija un nuevo personaje';
+            document.getElementById('result').innerHTML = ' Error,no encontrado';
         });
 
         
