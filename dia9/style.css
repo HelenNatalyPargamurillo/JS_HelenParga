@@ -1,60 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap");
 
 body{
-    background-image: url(./storage/e0e5c27dbc9fe4a5a82a987a55da5484.jpg);
-    background-size: 100% 100%; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    min-height: 150vh; 
+}
+main{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
 }
 
-.titulo{
-    position: absolute;
-    left: 40%;
-    top:10%
+.pantalla{
+     max-width: 430px;
+     width: 100%;
+
 
 }
 
-.form-control{
-        display: block;
-        position: absolute;
-        top: 58%;
-        z-index: 99;
-        background-attachment: fixed;
-        left: 42.5%;
-        width: 15%;
-        height: calc(1.5em + 0.75rem + 2px);
-        padding: 0.375rem 0.75rem;
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.5;
-        color: #495057;
-        background-color: #fff;
-        background-clip: padding-box;
-        border: 1px solid #ced4da;
-        border-radius: 0.25rem;
-        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
-    }
     button{
-        width: 10em;
+        width: 20em;
         position: relative;
         z-index: 99;
         width: 8.4em;
-        height: 3.5em;
+        height: 3em;
         font-family: "oxanium", cursive;
         font-size:1em;
         font-weight: 600;
-        background-color:#31363F ;
+        background-color:#1f2227 ;
         color: #fff;
         border: solid 0.15em black;
         border-radius: 0.5em;
+        top: -8em;
+        box-shadow: -0.25em 0.3em 0 #26292e;
+        cursor: pointer;
+        margin: 3%;
+        left: -4%;
     }
 
     button:hover{
         box-shadow:-0.25em 0.3em #31363F;
         background: #222831;
         transform:scale(95%);
-        text-decoration: underline
+        text-decoration:none
+    }  
+    .buscar{
+        border: 3px solid #333;
+        border-radius: 6px;
+        color: #2c3135;
+        font-size: clamp (9px,4vw,1.5rem);
+        font-weight: 600;
+        outline: none;
+        padding: 4%;
+        width: 22vw ;
+        box-shadow: -10px apx 0 #9d9d9d, -5px 98px 0 #2c2b2b;
     }
+     
+.pokeimg{
+    position: absolute;
+    bottom: 55%;
+    transform: translate(-63%,20%);
+    height: 18px;
+    left:50%;
+}
+
+.pokdata{
+    position: absolute;
+    font-weight: 600;
+    color: #908d8d;
+    right: 42%;
+    font-size: clamb(8px,5vw,25px);
+    top:59%;
+}
+
+
+.nombre_pokeman{
+    color:#25292b ;
+    text-transform: capitalize;
+}
+
+form{
+   position: absolute;
+   width: 23%;
+   top:75% ;
+   left:37% ;
+}
+
+
     
 
    

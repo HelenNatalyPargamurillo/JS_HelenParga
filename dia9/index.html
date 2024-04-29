@@ -8,16 +8,24 @@
     
 </head>
 <body>
+
     <script src="./script.js"></script>
-    <div class="container text-center">
-        <h1  class="titulo" ><img src="./storage/pokedex.png" alt=""></h1>
-        <form id="apiForm">
-            <div class="form-group">
-                <input type="number" min="1" max="90" class="form-control"  id="idInput" value="1">
-            </div>
-            <button type="submit" class="button">Pref</button>
-            <button type="submit" class="button">netx</button>
-        </form>
-    </div>
+
+    <main>
+        <img class="pokeimg" src="#" alt="pokemon">
+        <h1 class ="pokdata">
+            <span class="numero_pokemon"></span> - 
+            <span class="nombre_pokeman"></span>
+        </h1> 
+        <img class="pantalla" src="./storage/pokedex.png" alt="">
+        <form class="form" >
+            <input type="search"  class="buscar"  placeholder="Nombre o Numero" required>
+        </form >
+            <div  >
+                <button type="submit" class="button ">Prev &lt;</button>
+                <button type="submit" class="button ">netx &gt;</button>
+
+            
+    </main> 
 </body>
 </html>
