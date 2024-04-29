@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="./favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <script defer src="./script.js"></script>
+
+  <title>Pokédex</title>
 </head>
 <body>
+  
+  <main>
+    <img src="#" alt="pokemon" class="pokemon__image">
 
-    <script src="./script.js"></script>
+    <h1 class="pokemon__data">
+      <span class="pokemon__number"></span> -
+      <span class="pokemon__name"></span>
+    </h1>
 
-    <main>
-        <img class="pokeimg" src="#" alt="pokemon">
-        <h1 class ="pokdata">
-            <span class="numero_pokemon"></span> - 
-            <span class="nombre_pokeman"></span>
-        </h1> 
-        <img class="pantalla" src="./storage/pokedex.png" alt="">
-        <form class="form" >
-            <input type="search"  class="buscar"  placeholder="Nombre o Numero" required>
-        </form >
-            <div  >
-                <button type="submit" class="button ">Prev &lt;</button>
-                <button type="submit" class="button ">netx &gt;</button>
+    <form class="form">
+      <input
+        type="search"
+        class="input__search"
+        placeholder="Name or Number"
+        required
+      />
+    </form>
 
-            
-    </main> 
+    <div class="buttons">
+      <button class="button btn-prev">Prev &lt;</button>
+      <button class="button btn-next">Next &gt;</button>
+    </div>
+
+    <img src="./storage/pokedex.png" alt="pokedex" class="pokedex">
+  </main>
+
 </body>
 </html>

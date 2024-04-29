@@ -1,95 +1,94 @@
-@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
 
-body{
-    text-align: center;
-    background: linear-gradient(to bottom, #6ab7f5, #fff);
-    min-height: 150vh; 
-}
-main{
-    display: inline-block;
-    margin-top: 2%;
-    padding: 15px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
 }
 
-.pantalla{
-     max-width: 430px;
-     width: 100%;
-
-
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #f8024c, #c045a5);
+  min-height: 100vh;
 }
 
-
-    button{
-        width: 20em;
-        position: relative;
-        z-index: 99;
-        width: 8.4em;
-        height: 3em;
-        font-family: "oxanium", cursive;
-        font-size:1em;
-        font-weight: 600;
-        background-color:#1f2227 ;
-        color: #fff;
-        border: solid 0.15em black;
-        border-radius: 0.5em;
-        top: -8em;
-        box-shadow: -0.25em 0.3em 0 #26292e;
-        cursor: pointer;
-        margin: 3%;
-        left: -4%;
-    }
-
-    button:hover{
-        box-shadow:-0.25em 0.3em #31363F;
-        background: #222831;
-        transform:scale(95%);
-        text-decoration:none
-    }  
-    .buscar{
-        border: 3px solid #333;
-        border-radius: 6px;
-        color: #2c3135;
-        font-size: clamp (9px,4vw,1.5rem);
-        font-weight: 600;
-        outline: none;
-        padding: 4%;
-        width: 22vw ;
-        box-shadow: -10px apx 0 #9d9d9d, -5px 98px 0 #2c2b2b;
-    }
-     
-.pokeimg{
-    position: absolute;
-    bottom: 55%;
-    transform: translate(-63%,20%);
-    height: 18px;
-    left:50%;
+main {
+  display: inline-block;
+  margin-top: 2%;
+  padding: 15px;
+  position: relative;
 }
 
-.pokdata{
-    position: absolute;
-    font-weight: 600;
-    color: #908d8d;
-    right: 42%;
-    font-size: clamb(8px,5vw,25px);
-    top:59%;
+.pokedex {
+  width: 100%;
+  max-width: 425px;
 }
 
-
-.nombre_pokeman{
-    color:#25292b ;
-    text-transform: capitalize;
+.pokemon__image {
+  position: absolute;
+  bottom: 55%;
+  left: 50%;
+  transform: translate(-63%, 20%);
+  height: 18%;
 }
 
-form{
-   position: absolute;
-   width: 23%;
-   top:75% ;
-   left:37% ;
+.pokemon__data {
+  position: absolute;
+  font-weight: 600;
+  color: #aaa;
+  top: 54.5%;
+  right: 27%;
+  font-size: clamp(8px, 5vw, 25px);
 }
 
+.pokemon__name {
+  color: #3a444d;
+  text-transform: capitalize;
+}
 
-    
+.form {
+  position: absolute;
+  width: 65%;
+  top: 65%;
+  left: 13.5%;
+}
 
-   
+.input__search {
+  width: 100%;
+  padding: 4%;
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #3a444d;
+  font-size: clamp(8px, 5vw, 1rem);
+  box-shadow: -3px 4px 0 #888, -5px 7px 0 #333
+}
 
+.buttons {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: 65%;
+  transform: translate(-57%, 0);
+  display: flex;
+  gap: 20px;
+}
 
+.button {
+  width: 50%;
+  padding: 4%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: white;
+  background-color: #444;
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+.button:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 0.9rem;
+}
