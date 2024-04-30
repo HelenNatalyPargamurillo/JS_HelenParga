@@ -1,0 +1,66 @@
+@import url("https://fonts.gstatic.com" );
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gstatic', cursive;
+}
+html{
+    text-align: center;
+    background: #000000;
+    min-height: 100vh;
+}
+.logo{
+    position: absolute;
+    
+   
+    top: 35vh;
+    left: 25vw;
+    width: 50vi;
+    align-items: center;
+}
+
+@keyframes m {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+ .nombre{
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 600;
+    color: floralwhite;
+    left: 33%;
+    top: 30%;
+
+ }
+ 
+@-webkit-keyframes nombre {
+    0% {
+      background-position: -100%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+  
+  @keyframes nombre {
+    0% {
+      background-position: -100%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+ 
+   .container{
+    animation: m 5s;
+   }
