@@ -1,4 +1,5 @@
 @import url("https://fonts.gstatic.com" );
+@import url("./storage/Platypi-Italic-VariableFont_wght.ttf");
 *{
     margin: 0;
     padding: 0;
@@ -49,6 +50,7 @@ html{
     }
     100% {
       background-position: 100%;
+      opacity: 1;
     }
   }
   
@@ -63,4 +65,94 @@ html{
  
    .container{
     animation: m 5s;
+    opacity: 0;
    }
+   .media{
+    position: absolute;
+    top: 0.5vi;
+    left: 18vi;
+    width: 5vw;
+}
+.bienvenido{
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vi;
+    top: 5vi;
+    left: 11.5vi;
+    font-family: 'Myriad pro, regular';
+}
+
+.panel{
+    position: absolute;
+    background-color: transparent;
+    width: 42vi;
+    height: 31vi;
+    top: 25vh;
+    left: 29vw;
+    border-radius: 3vi;
+    animation: blanco 2s forwards;
+    animation-delay: 4s;
+    animation-name: panel;
+    opacity: 0;
+    border: 1vh solid #43d7c8;
+    
+}
+@keyframes panel {
+  0% {
+    background-position: -100%;
+    opacity: 0;
+  }
+  100% {
+    background-position: 100%;
+    opacity: 1;
+  }
+}
+.bienvenido{
+    position: absolute;
+    text-align: center;
+    font-size:3vi;
+    top: 2.5vi;
+    left: 11.5vi;
+    font-family: 'Platypi-Italic-VariableFont_wght';
+    color: white;
+    font-weight: 20vi;
+
+}
+.ingresa{
+  position: absolute;
+  text-align: center;
+  font-size: 2vi;
+  top: 13vi;
+  left: 2vi;
+  font-family: 'Myriad pro, regular';
+  color: #6D6D6D;
+
+}
+.usuario{
+  position: absolute;
+  top: 13vi;
+  left: 6.5vi;
+  font-family: 'Myriad pro, regular';
+  font-size: 5%;
+  color: #34324a;
+}
+#usuario2{
+  position: absolute;
+  border-color: #be69f4;
+  width: 38vi;
+  height: 7vi;
+  top: 17vi;
+  left: 2vi;
+  border-radius: 20vi;
+  text-align: center;
+  font-size: 5vi;
+}
+.siguiente{
+  position: absolute;
+  top: 25vi;
+  left: 18vi;
+  width: 6vi;
+  height: 2vi;
+  border: 5px solid #be69f4;
+  font-size: 1vi;
+}
