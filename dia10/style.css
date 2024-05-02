@@ -35,7 +35,7 @@ html{
 }
  .nombre{
     position: absolute;
-    font-size: 100px;
+    font-size: 5vi;
     text-align: center;
     font-weight: 600;
     color: floralwhite;
