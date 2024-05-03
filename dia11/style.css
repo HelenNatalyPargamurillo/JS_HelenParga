@@ -1,0 +1,32 @@
+*{
+    margin: 5%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.h1{
+    position: absolute;
+    top: 3vi;
+    left: 32vi;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 500;
+    font-size: 5vi;
+    color: #161616;
+}
+
+.todo{
+    position: absolute;
+    top: 7%;
+    grid-template-rows: 1fr 2fr 1fr;
+   
+    
+    
+
+
+}
+.forml{
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+    
+}
