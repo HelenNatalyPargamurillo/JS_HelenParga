@@ -1,0 +1,28 @@
+html{ 
+  background: url(./storage/2260100.jpg);
+  margin: 10vi;
+  margin-left: 30vi;
+
+}
+.container{
+    display: flex;
+    align-content: center;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    width: 50vi;
+    height: 50vi;
+    padding: 5vi;
+   
+}
+
+h1{
+    position: relative;
+    text-align-last: center;
+}
+
+:buscador{
+    position: relative;
+    background-color: black;
+    top: 50vi;
+}
+
